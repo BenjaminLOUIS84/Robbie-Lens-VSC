@@ -1,99 +1,114 @@
 /*Pour reset les marges*/
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
 /*Pour modifier le corps sur l'ensemble des pages*/
-body{
-    background: #1f2039;
-    font-family: "Manrope", sans-serif;
-    font-size: 1em;
+body {
+  background: #1f2039;
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
 }
-em{
-    color:#A5B4FC; 
-    font-style: normal;  
+
+em {
+  color: #A5B4FC;
+  font-style: normal;
 }
+
 /*Pour modifier l'apparence des liens*/
-a{
-    color: #242424;
-    text-decoration: none;   
+a {
+  color: #242424;
+  text-decoration: none;
 }
-a:hover{
-    text-decoration: underline;
+
+a:hover {
+  text-decoration: underline;
 }
-.ancre:hover{
-    background: linear-gradient(#696484,#8788BA);
-    text-decoration: none;
+
+.ancre:hover {
+  background: linear-gradient(#696484, #8788BA);
+  text-decoration: none;
 }
+
 /*Pour faire apparaitre des bordures*/
-.border{
-    border-right: 1px solid #A5B4FC;
-    border-bottom: 1px solid #A5B4FC;
-    padding: 50px;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 80px;
- /*Pour contrôler les marges*/   
+.border {
+  border-right: 1px solid #A5B4FC;
+  border-bottom: 1px solid #A5B4FC;
+  padding: 50px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 80px;
+  /*Pour contrôler les marges*/
 }
-.border h2{
-    margin-top: 30px;
+
+.border h2 {
+  margin-top: 30px;
 }
-.border ul{
-    margin-top: 30px;  
+
+.border ul {
+  margin-top: 30px;
 }
-.border + div{
+
+.border+div {
   text-align: center;
 }
 
 /*Pour contrôler la place du logo*/
-.logo{
-    margin-left: 30px;     
+.logo {
+  margin-left: 30px;
 }
+
 /*Pour faire un effet dynamique opacité*/
-.logo :hover{
-opacity: 0.5;
+.logo :hover {
+  opacity: 0.5;
 }
 
 /*Pour modifier les bannières en haut et en bas*/
-header, footer{
-    background-color: white;
-    padding: 20px 50px;
+header,
+footer {
+  background-color: white;
+  padding: 20px 50px;
 }
+
 /*Pour modifier les titres et les paragraphes*/
-h1{
-    font-size: 3.5em;
-    color:#A5B4FC;
-    font-family: "Montserrat", sans-serif;  
+h1 {
+  font-size: 3.5em;
+  color: #A5B4FC;
+  font-family: "Montserrat", sans-serif;
 }
-h2{
-   color: #F9F8FF;
+
+h2 {
+  color: #F9F8FF;
 }
 
 p,
-li{
-    font-size: 1.1em;
-    color: #F9F8FF;   
+li {
+  font-size: 1.1em;
+  color: #F9F8FF;
 }
 
 /*Pour modifier les liens en bouton*/
-.ancre{
-background: linear-gradient(#8E86B5,#ACAEED);
-border: none;
-border-radius: 50px;
-font-family: "Montserrat", sans-serif;
-color: white;
-padding: 20px 30px;
-display: inline-block;
+.ancre {
+  background: linear-gradient(#8E86B5, #ACAEED);
+  border: none;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding: 20px 30px;
+  margin-bottom: 40px;
+  display: inline-block;
 }
 
 /*Pour modifier l'aligement des blocs*/
-section{
-    padding: 80px;
-  
+section {
+  padding: 80px;
+
 }
-.a-propos-main{
-    margin: auto;
+
+.a-propos-main {
+  margin: auto;
 }
+
 /*Pour agencer les liens vers les autres pages*/
 footer,
 nav {
@@ -106,6 +121,7 @@ nav {
 nav a {
   margin-left: 30px;
 }
+
 /*Pour rendre la banière adaptable*/
 @media screen and (max-width: 996px) {
   header nav {
@@ -136,6 +152,7 @@ nav a {
     margin-right: 10px;
   }
 }
+
 /*Pour régler la couleur de fond et la taille de la pages d'arrière plan des photos*/
 .photos {
   background-color: white;
@@ -155,6 +172,7 @@ nav a {
   justify-content: center;
   margin-bottom: 15px;
 }
+
 /*Pour agencer les élément de la banière*/
 .accueil {
   display: flex;
@@ -162,26 +180,30 @@ nav a {
   justify-content: center;
   max-width: 1000px;
   align-items: flex-start;
-  margin: auto; 
+  margin: auto;
 }
-  
+
 /*Pour positionner le logo*/
-.accueil h1{
-    margin-bottom: 15px;
-    text-align: left;
+.accueil h1 {
+  margin-bottom: 15px;
+  text-align: left;
 }
-.accueil div{
-    padding-right: 80px;
+
+.accueil div {
+  padding-right: 80px;
 }
-.accueil p{
-    margin-bottom: 30px;
-    text-align: left;
+
+.accueil p {
+  margin-bottom: 30px;
+  text-align: left;
 }
+
 .section-contact h2 {
   color: #a5b4fc;
   text-align: center;
   margin-bottom: 50px;
 }
+
 /*Pour rendre les pages web adaptables*/
 @media screen and (max-width: 996px) {
   .accueil {
@@ -218,32 +240,38 @@ nav a {
     flex-direction: column;
     gap: 0;
   }
-  }
+}
+
 /*Pour positionner les titres du Portfolio*/
-.title h1{
-    text-align: left;
+.title h1 {
+  text-align: left;
 }
+
 .portfolio-section-photos {
-    background-color: white;   
+  background-color: white;
 }
+
 .portfolio-section-photos h2 {
-    color: #242424;
-    margin-bottom: 80px;
-    text-align: left;
+  color: #242424;
+  margin-bottom: 80px;
+  text-align: left;
 }
- /*Pour constituer les blocs d'images*/
-.grid-paysages{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px 300px;
-    gap: 15px;
+
+/*Pour constituer les blocs d'images*/
+.grid-paysages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 15px;
 }
-.grid-portraits{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px;
-    gap: 15px;
+
+.grid-portraits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
 }
+
 /*Pour que les images aient toute la même taille*/
 .grid-paysages img,
 .grid-portraits img {
@@ -251,6 +279,7 @@ nav a {
   height: 100%;
   object-fit: cover;
 }
+
 /*Pour rendre les pages web adaptables*/
 @media screen and (max-width: 996px) {
   .grid-paysages {
@@ -263,70 +292,84 @@ nav a {
     gap: 15px;
   }
 }
+
 /*Pour créer un effet de zoom dynamique*/
-  .lien-conteneur-photo{
-    position: relative;
+.lien-conteneur-photo {
+  position: relative;
 }
-  .photo-hover{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5em;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
+
+.photo-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+/*Pour activer l'effet au passage de la souris*/
+.lien-conteneur-photo:hover .photo-hover {
+  display: flex;
+}
+
+/*pour cacher la section tarif lorsqu'on change de support d'écran*/
+@media screen and (max-width: 996px) {
+  .section-tarifs {
     display: none;
+  }
 }
-  /*Pour activer l'effet au passage de la souris*/
-  .lien-conteneur-photo:hover .photo-hover{
-    display: flex;
+
+/*Pour améliorer le design du tableau comme faire apparaitre les bordures*/
+table {
+  color: white;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
 }
-  /*pour cacher la section tarif lorsqu'on change de support d'écran*/
-  @media screen and (max-width: 996px) {
-    .section-tarifs {
-      display: none;
-    }
-    }
-  /*Pour améliorer le design du tableau comme faire apparaitre les bordures*/
-  table{
-    color: white;
-    text-align: center;
-    border-collapse: collapse;
-    width: 100%;  
+
+td,
+th {
+  border: 1px solid white;
+  padding: 15px;
 }
-  td,
-  th{
-    border: 1px solid white;
-    padding: 15px;
+
+td {
+  padding: 80px;
 }
-  td{
-    padding: 80px;   
+
+h2 {
+  margin-bottom: 80px;
 }
-  h2{
-    margin-bottom: 80px;
+
+h1,
+h2 {
+  text-align: center;
 }
-  h1,
-  h2{
-    text-align: center;
-}
+
 /*Pour positioner le bouton*/
-  .button{
-    margin-left: 520px;  
+.button {
+  display: flex;
+  justify-content: center;
 }
+
 /*Pour améliorer le formulaire*/
 
-input{
+input {
   padding: 10px;
 }
+
 .section-contact h2 {
   color: #a5b4fc;
   text-align: center;
   margin-bottom: 50px;
 }
+
 /*Pour la mise en forme du formulaire*/
 form {
   display: flex;
@@ -335,18 +378,21 @@ form {
   margin: auto;
   color: white;
 }
+
 .form-nom-email {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  
+
 }
+
 .form-column {
   flex: 1;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 }
+
 input,
 textarea {
   padding: 15px;
